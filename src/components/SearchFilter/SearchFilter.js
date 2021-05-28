@@ -22,7 +22,6 @@ const SearchFilter = (props) =>  {
     return (
       <div className="searchFilter-bar">
           <div className="search-bar">
-          
           <input type="text" onChange={onSearchHandler} placeholder="Search..."></input>
           </div>
           <div className="filter-Bar">

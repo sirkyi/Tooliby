@@ -8,21 +8,18 @@ const ToolForm = (props) => {
     
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value);
-
     };
+
     const typeChangeHandler = (event) => {
         setEnteredType(event.target.value);
-
     };
 
     const statusChangeHandler = (event) => {
         setEnteredStatus(event.target.value);
-
     };
 
     const discriptionChangeHandler = (event) => {
         setEnteredDiscription(event.target.value);
-
     };
 
     const submitHandler = (event) => {
