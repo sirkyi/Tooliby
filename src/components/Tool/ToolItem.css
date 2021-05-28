@@ -1,0 +1,29 @@
+.tool-item {
+    background-color: #eee;
+    border-radius: 25px;
+    display: flex;
+    width: 80%;
+    margin: 20px;
+}
+
+.tool-image {
+    float: left;
+    background-color: #f56942;
+    border-radius: 25px;
+    
+}
+
+.tool-image img {
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.tool-body p {
+    color: darkslategray;
+}
+
+.tool-item h1 {
+    color: lightslategrey;
+    float: left;
+}
